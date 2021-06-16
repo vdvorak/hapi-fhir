@@ -47,7 +47,7 @@
 		<dependency>
 			<groupId>ca.uhn.hapi.fhir</groupId>
 			<artifactId>hapi-fhir-structures-dstu2.1</artifactId>
-			<version>3.3.0</version>
+			<version>3.8.0</version>
 			<exclusions>
 				<exclusion>
 					<groupId>ca.uhn.hapi.fhir</groupId>
@@ -302,7 +302,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore/>
 									</action>
 								</pluginExecution>
 							</pluginExecutions>
