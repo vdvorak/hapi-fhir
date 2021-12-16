@@ -21,7 +21,7 @@
 		<felix_framework_version>3.2.2</felix_framework_version>
 		<guava_failureaccess_version>1.0.1</guava_failureaccess_version>
 		<osgi_version>6.0.0</osgi_version>
-		<configadmin_version>1.9.10</configadmin_version>
+		<configadmin_version>1.9.22</configadmin_version>
 		<aries_blueprint_api_version>1.0.1</aries_blueprint_api_version>
 		<aries_blueprint_core_version>1.10.1</aries_blueprint_core_version>
 	</properties>
