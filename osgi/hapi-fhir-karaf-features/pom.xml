@@ -23,7 +23,7 @@
 		<osgi_version>6.0.0</osgi_version>
 		<configadmin_version>1.9.10</configadmin_version>
 		<aries_blueprint_api_version>1.0.1</aries_blueprint_api_version>
-		<aries_blueprint_core_version>1.10.1</aries_blueprint_core_version>
+		<aries_blueprint_core_version>1.10.3</aries_blueprint_core_version>
 	</properties>
 
 	<dependencies>
