@@ -120,7 +120,7 @@
 			<organization>University Health Network</organization>
 		</developer>
 		<developer>
-			<id></id>
+			<id/>
 			<name>Lisa Wong</name>
 			<organization>University Health Network</organization>
 		</developer>
@@ -683,7 +683,7 @@
 		<activation_api_version>1.2.0</activation_api_version>
 		<apache_karaf_version>4.2.5</apache_karaf_version>
 		<aries_spifly_version>1.2</aries_spifly_version>
-		<caffeine_version>2.7.0</caffeine_version>
+		<caffeine_version>2.9.3</caffeine_version>
 		<commons_codec_version>1.12</commons_codec_version>
 		<commons_compress_version>1.20</commons_compress_version>
 		<commons_text_version>1.7</commons_text_version>
@@ -1931,7 +1931,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<pluginExecution>
@@ -1950,7 +1950,7 @@
 										</goals>
 									</pluginExecutionFilter>
 									<action>
-										<ignore></ignore>
+										<ignore/>
 									</action>
 								</pluginExecution>
 								<!--
@@ -2206,7 +2206,7 @@
 								</replace>
 								<echo>Adding Syntax Highlighter</echo>
 								<replace dir="target/site" summary="true">
-									<include name="*.html"></include>
+									<include name="*.html"/>
 									<replacetoken><![CDATA[</body>]]></replacetoken>
 									<replacevalue><![CDATA[
 <script type="text/javascript">
@@ -2246,9 +2246,9 @@
 						<phase>site</phase>
 						<configuration>
 							<target>
-								<echo>Adding Google analytics in target/site for &lt;body&gt;</echo>
+								<echo>Adding Google analytics in target/site for &lt;body></echo>
 								<replace dir="target/site" summary="true">
-									<include name="**/*.html"></include>
+									<include name="**/*.html"/>
 									<replacefilter token="#build#" value="${label}"/>
 									<replacefilter token="#version#" value="${project.version}"/>
 									<replacetoken><![CDATA[</body>]]></replacetoken>
@@ -2268,9 +2268,9 @@
                 </body >
                 ]]></replacevalue>
 								</replace>
-								<echo>Adding Google analytics in target/site for &lt;BODY&gt;</echo>
+								<echo>Adding Google analytics in target/site for &lt;BODY></echo>
 								<replace dir="target/site" summary="true">
-									<include name="**/*.html"></include>
+									<include name="**/*.html"/>
 									<replacetoken><![CDATA[</BODY>]]></replacetoken>
 									<replacevalue><![CDATA[
 <script>
